@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225ACFDA804A49CEA359325F99526AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3611350F438ACBAFDB9EC4286B0E0564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4FE141BB5641B5C9F91A31729B5A59A0 /* Pods-BankMisr-BankMisrUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F4F7F0898594EC04235AE2D0D994D5 /* Pods-BankMisr-BankMisrUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F299D0F63BF1B58DD5ACB8D49E4C6F5 /* Pods-BankMisr-BankMisrUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA496B824A8C80F07B0D7F4BFF740E1C /* Pods-BankMisr-BankMisrUITests-dummy.m */; };
+		80A49570DA544E0CF15CAB32FB7BB17D /* Pods-BankMisr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3414C0B2BF5A3C12733C609AF906A /* Pods-BankMisr-dummy.m */; };
+		AA70180CB190253458AEFF221DF9EE7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C252859FF19163A695B91EF8CDE8B138 /* Pods-BankMisrTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B93ABFE7F4B74333DBBEA0EA9D91AA0 /* Pods-BankMisrTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC55BB43B530FC5CE1F7996D5A4D7259 /* Pods-BankMisrTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3D99AA3C9ADFB7B6D04D60047C8270 /* Pods-BankMisrTests-dummy.m */; };
+		F3723861CA5F733682AB7F3CA78846F2 /* Pods-BankMisr-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76956735963D5DDD2D475334B851052A /* Pods-BankMisr-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AF0DC4A96F0D663505E400B762AB09E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA75EFBA77627D9C9A281E041320034;
+			remoteInfo = "Pods-BankMisr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15E694BBDDA3EBB52ACA1B798725DB13 /* Pods-BankMisrTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankMisrTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18A3414C0B2BF5A3C12733C609AF906A /* Pods-BankMisr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankMisr-dummy.m"; sourceTree = "<group>"; };
+		1DFD51A2DF006EAC90F7F28E05D8903A /* Pods-BankMisr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankMisr.release.xcconfig"; sourceTree = "<group>"; };
+		3EE163EF9A77A74026B5AE2C87124D1A /* Pods-BankMisr-BankMisrUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankMisr-BankMisrUITests-Info.plist"; sourceTree = "<group>"; };
+		4324DEE63097C3FE63BBB03A992F493F /* Pods-BankMisrTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankMisrTests-Info.plist"; sourceTree = "<group>"; };
+		4FD68DF157404EFC4E98F260CE692FCD /* Pods-BankMisr-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankMisr-acknowledgements.plist"; sourceTree = "<group>"; };
+		50C0E0FAD6A246CFC7ED4744FB3B1E6B /* Pods-BankMisr.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankMisr.modulemap"; sourceTree = "<group>"; };
+		55929DB9B0B67CC3E70FCD8C1C0F8B2F /* Pods-BankMisrTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankMisrTests.modulemap"; sourceTree = "<group>"; };
+		56D0CDF99A921C2003F80E691B435467 /* Pods-BankMisrTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankMisrTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E468B09CBBB03DC944F58B8B8BF49E3 /* Pods-BankMisr-BankMisrUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankMisr-BankMisrUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		72BDBC50750CE7833CD8B8EBE5CA6C8C /* Pods-BankMisr */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BankMisr"; path = Pods_BankMisr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76956735963D5DDD2D475334B851052A /* Pods-BankMisr-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankMisr-umbrella.h"; sourceTree = "<group>"; };
+		789CA5F078FC2260715AF6345A6E11E0 /* Pods-BankMisr-BankMisrUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BankMisr-BankMisrUITests.modulemap"; sourceTree = "<group>"; };
+		8544F72FDDA15073F932DE95EE6A2FBA /* Pods-BankMisrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankMisrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B93ABFE7F4B74333DBBEA0EA9D91AA0 /* Pods-BankMisrTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankMisrTests-umbrella.h"; sourceTree = "<group>"; };
+		9CF49E8C5FF9AF070F111AB8742116C0 /* Pods-BankMisrTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BankMisrTests"; path = Pods_BankMisrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE86CA3E5AA9F2972D7BD880F3D6F98A /* Pods-BankMisr-BankMisrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankMisr-BankMisrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7D97B922801914F6B9803CB28A93BEF /* Pods-BankMisr-BankMisrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankMisr-BankMisrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B864BE5E7FDD45BDB61EE00FC7A321D1 /* Pods-BankMisr-BankMisrUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BankMisr-BankMisrUITests"; path = Pods_BankMisr_BankMisrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA355068F2F586E32146C64EA63725C8 /* Pods-BankMisrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankMisrTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB0C9953AC412313DDB607F7B7774EDC /* Pods-BankMisr-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankMisr-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA496B824A8C80F07B0D7F4BFF740E1C /* Pods-BankMisr-BankMisrUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankMisr-BankMisrUITests-dummy.m"; sourceTree = "<group>"; };
+		D42849E7F01595CE9809103D6D1DE3BE /* Pods-BankMisr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BankMisr.debug.xcconfig"; sourceTree = "<group>"; };
+		DB692B43D5E63917FF625798980890C3 /* Pods-BankMisr-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BankMisr-Info.plist"; sourceTree = "<group>"; };
+		EB3D99AA3C9ADFB7B6D04D60047C8270 /* Pods-BankMisrTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BankMisrTests-dummy.m"; sourceTree = "<group>"; };
+		F7F4F7F0898594EC04235AE2D0D994D5 /* Pods-BankMisr-BankMisrUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BankMisr-BankMisrUITests-umbrella.h"; sourceTree = "<group>"; };
+		FB2AF6878A04E41990C10ADAF319EC9C /* Pods-BankMisr-BankMisrUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BankMisr-BankMisrUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498C1350F46FAB21D03B5B477BBD9AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70180CB190253458AEFF221DF9EE7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63271C2785A3BD1D6D3088345AD8FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225ACFDA804A49CEA359325F99526AFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DF2867057873076484FCBFD1665736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3611350F438ACBAFDB9EC4286B0E0564 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F793073D1A810A570E98D46DBC21AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72BDBC50750CE7833CD8B8EBE5CA6C8C /* Pods-BankMisr */,
+				B864BE5E7FDD45BDB61EE00FC7A321D1 /* Pods-BankMisr-BankMisrUITests */,
+				9CF49E8C5FF9AF070F111AB8742116C0 /* Pods-BankMisrTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		612A45780728A47FC41DCEB9A4481974 /* Pods-BankMisr-BankMisrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				789CA5F078FC2260715AF6345A6E11E0 /* Pods-BankMisr-BankMisrUITests.modulemap */,
+				FB2AF6878A04E41990C10ADAF319EC9C /* Pods-BankMisr-BankMisrUITests-acknowledgements.markdown */,
+				5E468B09CBBB03DC944F58B8B8BF49E3 /* Pods-BankMisr-BankMisrUITests-acknowledgements.plist */,
+				CA496B824A8C80F07B0D7F4BFF740E1C /* Pods-BankMisr-BankMisrUITests-dummy.m */,
+				3EE163EF9A77A74026B5AE2C87124D1A /* Pods-BankMisr-BankMisrUITests-Info.plist */,
+				F7F4F7F0898594EC04235AE2D0D994D5 /* Pods-BankMisr-BankMisrUITests-umbrella.h */,
+				AE86CA3E5AA9F2972D7BD880F3D6F98A /* Pods-BankMisr-BankMisrUITests.debug.xcconfig */,
+				B7D97B922801914F6B9803CB28A93BEF /* Pods-BankMisr-BankMisrUITests.release.xcconfig */,
+			);
+			name = "Pods-BankMisr-BankMisrUITests";
+			path = "Target Support Files/Pods-BankMisr-BankMisrUITests";
+			sourceTree = "<group>";
+		};
+		69805F287FA7B37A0BBC2E2276F3AAF0 /* Pods-BankMisrTests */ = {
+			isa = PBXGroup;
+			children = (
+				55929DB9B0B67CC3E70FCD8C1C0F8B2F /* Pods-BankMisrTests.modulemap */,
+				56D0CDF99A921C2003F80E691B435467 /* Pods-BankMisrTests-acknowledgements.markdown */,
+				15E694BBDDA3EBB52ACA1B798725DB13 /* Pods-BankMisrTests-acknowledgements.plist */,
+				EB3D99AA3C9ADFB7B6D04D60047C8270 /* Pods-BankMisrTests-dummy.m */,
+				4324DEE63097C3FE63BBB03A992F493F /* Pods-BankMisrTests-Info.plist */,
+				8B93ABFE7F4B74333DBBEA0EA9D91AA0 /* Pods-BankMisrTests-umbrella.h */,
+				8544F72FDDA15073F932DE95EE6A2FBA /* Pods-BankMisrTests.debug.xcconfig */,
+				BA355068F2F586E32146C64EA63725C8 /* Pods-BankMisrTests.release.xcconfig */,
+			);
+			name = "Pods-BankMisrTests";
+			path = "Target Support Files/Pods-BankMisrTests";
+			sourceTree = "<group>";
+		};
+		C4231CE68203EC8CC5CE61AA5BCA22B6 /* Pods-BankMisr */ = {
+			isa = PBXGroup;
+			children = (
+				50C0E0FAD6A246CFC7ED4744FB3B1E6B /* Pods-BankMisr.modulemap */,
+				BB0C9953AC412313DDB607F7B7774EDC /* Pods-BankMisr-acknowledgements.markdown */,
+				4FD68DF157404EFC4E98F260CE692FCD /* Pods-BankMisr-acknowledgements.plist */,
+				18A3414C0B2BF5A3C12733C609AF906A /* Pods-BankMisr-dummy.m */,
+				DB692B43D5E63917FF625798980890C3 /* Pods-BankMisr-Info.plist */,
+				76956735963D5DDD2D475334B851052A /* Pods-BankMisr-umbrella.h */,
+				D42849E7F01595CE9809103D6D1DE3BE /* Pods-BankMisr.debug.xcconfig */,
+				1DFD51A2DF006EAC90F7F28E05D8903A /* Pods-BankMisr.release.xcconfig */,
+			);
+			name = "Pods-BankMisr";
+			path = "Target Support Files/Pods-BankMisr";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0F793073D1A810A570E98D46DBC21AE0 /* Products */,
+				E67387DCC26EF0C8BEC6BDBCAD830CF7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E67387DCC26EF0C8BEC6BDBCAD830CF7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4231CE68203EC8CC5CE61AA5BCA22B6 /* Pods-BankMisr */,
+				612A45780728A47FC41DCEB9A4481974 /* Pods-BankMisr-BankMisrUITests */,
+				69805F287FA7B37A0BBC2E2276F3AAF0 /* Pods-BankMisrTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11DBE9E5EB2EF19A9630C53106467394 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3723861CA5F733682AB7F3CA78846F2 /* Pods-BankMisr-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB58A9A45A82549CF70FF982CE4142FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C252859FF19163A695B91EF8CDE8B138 /* Pods-BankMisrTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31D0130E7A2441CF5ACDC3E240BD326 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE141BB5641B5C9F91A31729B5A59A0 /* Pods-BankMisr-BankMisrUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BECD09AB61659A5B6F455E6B511A8FE /* Pods-BankMisr-BankMisrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31196FB3390AD2841928D6619B68146B /* Build configuration list for PBXNativeTarget "Pods-BankMisr-BankMisrUITests" */;
+			buildPhases = (
+				F31D0130E7A2441CF5ACDC3E240BD326 /* Headers */,
+				06F5B9DFA5F4D49AD3B356C6FB6D10B0 /* Sources */,
+				498C1350F46FAB21D03B5B477BBD9AAF /* Frameworks */,
+				AFEB417D47967D096C4B6EF277C69174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BankMisr-BankMisrUITests";
+			productName = Pods_BankMisr_BankMisrUITests;
+			productReference = B864BE5E7FDD45BDB61EE00FC7A321D1 /* Pods-BankMisr-BankMisrUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		75D82ECECCB7D2D290541E528D3C9266 /* Pods-BankMisrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114DD08535EBFC3E3965F8E3DA1CFF7D /* Build configuration list for PBXNativeTarget "Pods-BankMisrTests" */;
+			buildPhases = (
+				DB58A9A45A82549CF70FF982CE4142FC /* Headers */,
+				F7CD59B391C113A0C3D78E14EB31AD42 /* Sources */,
+				F3DF2867057873076484FCBFD1665736 /* Frameworks */,
+				BF3FA4E6445B4366C249CA99F38DCC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F276D5E116C633FFD21170F2EC2A13 /* PBXTargetDependency */,
+			);
+			name = "Pods-BankMisrTests";
+			productName = Pods_BankMisrTests;
+			productReference = 9CF49E8C5FF9AF070F111AB8742116C0 /* Pods-BankMisrTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCA75EFBA77627D9C9A281E041320034 /* Pods-BankMisr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81AF808B9F6B7B873DB03F26B708A2D /* Build configuration list for PBXNativeTarget "Pods-BankMisr" */;
+			buildPhases = (
+				11DBE9E5EB2EF19A9630C53106467394 /* Headers */,
+				83431BFCFFE88866755DC49C70BCEC49 /* Sources */,
+				D63271C2785A3BD1D6D3088345AD8FC4 /* Frameworks */,
+				482B08C84AD655CC409B5F19ADFADD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BankMisr";
+			productName = Pods_BankMisr;
+			productReference = 72BDBC50750CE7833CD8B8EBE5CA6C8C /* Pods-BankMisr */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0F793073D1A810A570E98D46DBC21AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA75EFBA77627D9C9A281E041320034 /* Pods-BankMisr */,
+				5BECD09AB61659A5B6F455E6B511A8FE /* Pods-BankMisr-BankMisrUITests */,
+				75D82ECECCB7D2D290541E528D3C9266 /* Pods-BankMisrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482B08C84AD655CC409B5F19ADFADD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEB417D47967D096C4B6EF277C69174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3FA4E6445B4366C249CA99F38DCC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F5B9DFA5F4D49AD3B356C6FB6D10B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F299D0F63BF1B58DD5ACB8D49E4C6F5 /* Pods-BankMisr-BankMisrUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83431BFCFFE88866755DC49C70BCEC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A49570DA544E0CF15CAB32FB7BB17D /* Pods-BankMisr-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CD59B391C113A0C3D78E14EB31AD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC55BB43B530FC5CE1F7996D5A4D7259 /* Pods-BankMisrTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F276D5E116C633FFD21170F2EC2A13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BankMisr";
+			target = DCA75EFBA77627D9C9A281E041320034 /* Pods-BankMisr */;
+			targetProxy = 0AF0DC4A96F0D663505E400B762AB09E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B5F3C1CF98BF5373B6AEC6DE6D379E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D97B922801914F6B9803CB28A93BEF /* Pods-BankMisr-BankMisrUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankMisr-BankMisrUITests/Pods-BankMisr-BankMisrUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankMisr-BankMisrUITests/Pods-BankMisr-BankMisrUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20C61877A500785B7BA444DC03DDE313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8544F72FDDA15073F932DE95EE6A2FBA /* Pods-BankMisrTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankMisrTests/Pods-BankMisrTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankMisrTests/Pods-BankMisrTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7480AE0954B320EC09CD1FD9FA416511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE86CA3E5AA9F2972D7BD880F3D6F98A /* Pods-BankMisr-BankMisrUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankMisr-BankMisrUITests/Pods-BankMisr-BankMisrUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankMisr-BankMisrUITests/Pods-BankMisr-BankMisrUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939874ADBE63AD335A1F31A9CED26A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42849E7F01595CE9809103D6D1DE3BE /* Pods-BankMisr.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankMisr/Pods-BankMisr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankMisr/Pods-BankMisr.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1744D2E2F4DCD3C2400EBEB44D3F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA355068F2F586E32146C64EA63725C8 /* Pods-BankMisrTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankMisrTests/Pods-BankMisrTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankMisrTests/Pods-BankMisrTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E40B9F7AD38FE3580061B00AB8FDC2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFD51A2DF006EAC90F7F28E05D8903A /* Pods-BankMisr.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BankMisr/Pods-BankMisr-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BankMisr/Pods-BankMisr.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114DD08535EBFC3E3965F8E3DA1CFF7D /* Build configuration list for PBXNativeTarget "Pods-BankMisrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C61877A500785B7BA444DC03DDE313 /* Debug */,
+				D1744D2E2F4DCD3C2400EBEB44D3F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31196FB3390AD2841928D6619B68146B /* Build configuration list for PBXNativeTarget "Pods-BankMisr-BankMisrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7480AE0954B320EC09CD1FD9FA416511 /* Debug */,
+				0B5F3C1CF98BF5373B6AEC6DE6D379E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C81AF808B9F6B7B873DB03F26B708A2D /* Build configuration list for PBXNativeTarget "Pods-BankMisr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939874ADBE63AD335A1F31A9CED26A6E /* Debug */,
+				E40B9F7AD38FE3580061B00AB8FDC2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

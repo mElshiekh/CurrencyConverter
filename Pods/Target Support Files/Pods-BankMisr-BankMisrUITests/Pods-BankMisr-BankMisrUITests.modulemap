@@ -1,0 +1,6 @@
+framework module Pods_BankMisr_BankMisrUITests {
+  umbrella header "Pods-BankMisr-BankMisrUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
