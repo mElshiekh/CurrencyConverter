@@ -18,6 +18,23 @@
 		A2D1E2072A3D9EC700BE6EB5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2062A3D9EC700BE6EB5 /* NetworkManager.swift */; };
 		A2D1E2092A3DB33000BE6EB5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2082A3DB33000BE6EB5 /* NetworkError.swift */; };
 		A2D1E20B2A3DB43100BE6EB5 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E20A2A3DB43100BE6EB5 /* NetworkConstants.swift */; };
+		A2D1E2132A3DBC1A00BE6EB5 /* CurrencyServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2112A3DBC1A00BE6EB5 /* CurrencyServices.swift */; };
+		A2D1E2142A3DBC1A00BE6EB5 /* CurrencyServicesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2122A3DBC1A00BE6EB5 /* CurrencyServicesProtocol.swift */; };
+		A2D1E2162A3DBC3A00BE6EB5 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2152A3DBC3A00BE6EB5 /* ServiceType.swift */; };
+		A2D1E21B2A3DBFCA00BE6EB5 /* ConvertRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E21A2A3DBFCA00BE6EB5 /* ConvertRequest.swift */; };
+		A2D1E21D2A3DBFD300BE6EB5 /* ConvertResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E21C2A3DBFD300BE6EB5 /* ConvertResponse.swift */; };
+		A2D1E2272A3DC2AF00BE6EB5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2252A3DC2AF00BE6EB5 /* HomeViewController.swift */; };
+		A2D1E2282A3DC2AF00BE6EB5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D1E2262A3DC2AF00BE6EB5 /* HomeViewController.xib */; };
+		A2D1E22A2A3DC2D800BE6EB5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2292A3DC2D800BE6EB5 /* HomeViewModel.swift */; };
+		A2D1E22C2A3DC2DF00BE6EB5 /* HomeViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E22B2A3DC2DF00BE6EB5 /* HomeViewModelProtocol.swift */; };
+		A2D1E22E2A3DC2F200BE6EB5 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E22D2A3DC2F200BE6EB5 /* HomeCoordinator.swift */; };
+		A2D1E2302A3DC2FA00BE6EB5 /* HomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E22F2A3DC2FA00BE6EB5 /* HomeCoordinatorProtocol.swift */; };
+		A2D1E2332A3DC43900BE6EB5 /* HomeCoordinatorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2322A3DC43900BE6EB5 /* HomeCoordinatorModels.swift */; };
+		A2D1E2352A3DC52B00BE6EB5 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2342A3DC52B00BE6EB5 /* UIViewController+Extensions.swift */; };
+		A2D1E2372A3DC53F00BE6EB5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E2362A3DC53F00BE6EB5 /* UIView+Extensions.swift */; };
+		A2D1E23E2A3DEFEA00BE6EB5 /* ConvertRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E23B2A3DEFEA00BE6EB5 /* ConvertRequest.swift */; };
+		A2D1E23F2A3DEFEA00BE6EB5 /* ConvertResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E23C2A3DEFEA00BE6EB5 /* ConvertResponse.swift */; };
+		A2D1E2402A3DEFEA00BE6EB5 /* CurrenciesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1E23D2A3DEFEA00BE6EB5 /* CurrenciesResponse.swift */; };
 		B8F4D83C2B4818A3FEE1E4E0 /* Pods_BankMisrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FE19EEB809868BFD9052E4 /* Pods_BankMisrTests.framework */; };
 		F3ACB8D34519EFC58468C059 /* Pods_BankMisr_BankMisrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B54D4D07D84951260D46C68 /* Pods_BankMisr_BankMisrUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +77,23 @@
 		A2D1E2062A3D9EC700BE6EB5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A2D1E2082A3DB33000BE6EB5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A2D1E20A2A3DB43100BE6EB5 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		A2D1E2112A3DBC1A00BE6EB5 /* CurrencyServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyServices.swift; sourceTree = "<group>"; };
+		A2D1E2122A3DBC1A00BE6EB5 /* CurrencyServicesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyServicesProtocol.swift; sourceTree = "<group>"; };
+		A2D1E2152A3DBC3A00BE6EB5 /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		A2D1E21A2A3DBFCA00BE6EB5 /* ConvertRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertRequest.swift; sourceTree = "<group>"; };
+		A2D1E21C2A3DBFD300BE6EB5 /* ConvertResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertResponse.swift; sourceTree = "<group>"; };
+		A2D1E2252A3DC2AF00BE6EB5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2D1E2262A3DC2AF00BE6EB5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A2D1E2292A3DC2D800BE6EB5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A2D1E22B2A3DC2DF00BE6EB5 /* HomeViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelProtocol.swift; sourceTree = "<group>"; };
+		A2D1E22D2A3DC2F200BE6EB5 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		A2D1E22F2A3DC2FA00BE6EB5 /* HomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		A2D1E2322A3DC43900BE6EB5 /* HomeCoordinatorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorModels.swift; sourceTree = "<group>"; };
+		A2D1E2342A3DC52B00BE6EB5 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		A2D1E2362A3DC53F00BE6EB5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		A2D1E23B2A3DEFEA00BE6EB5 /* ConvertRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertRequest.swift; sourceTree = "<group>"; };
+		A2D1E23C2A3DEFEA00BE6EB5 /* ConvertResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertResponse.swift; sourceTree = "<group>"; };
+		A2D1E23D2A3DEFEA00BE6EB5 /* CurrenciesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesResponse.swift; sourceTree = "<group>"; };
 		ECDB88179D58DFBC443606A1 /* Pods_BankMisr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankMisr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2A5246B958F60FE60A57E /* Pods-BankMisrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMisrTests.release.xcconfig"; path = "Target Support Files/Pods-BankMisrTests/Pods-BankMisrTests.release.xcconfig"; sourceTree = "<group>"; };
 		F932A29BFB073FD3603B4CDB /* Pods-BankMisrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMisrTests.debug.xcconfig"; path = "Target Support Files/Pods-BankMisrTests/Pods-BankMisrTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +207,8 @@
 		A2D1E1FC2A3D9DD400BE6EB5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A2D1E2102A3DBC1A00BE6EB5 /* Currency */,
+				A2D1E2152A3DBC3A00BE6EB5 /* ServiceType.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -191,6 +227,7 @@
 		A2D1E1FE2A3D9DF200BE6EB5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A2D1E21E2A3DC20B00BE6EB5 /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -214,6 +251,8 @@
 		A2D1E2012A3D9E1700BE6EB5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A2D1E2342A3DC52B00BE6EB5 /* UIViewController+Extensions.swift */,
+				A2D1E2362A3DC53F00BE6EB5 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,6 +263,90 @@
 				A2D1E20A2A3DB43100BE6EB5 /* NetworkConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		A2D1E2102A3DBC1A00BE6EB5 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E2192A3DBFB500BE6EB5 /* Models */,
+				A2D1E2112A3DBC1A00BE6EB5 /* CurrencyServices.swift */,
+				A2D1E2122A3DBC1A00BE6EB5 /* CurrencyServicesProtocol.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		A2D1E2192A3DBFB500BE6EB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E23A2A3DEFEA00BE6EB5 /* Models */,
+				A2D1E21A2A3DBFCA00BE6EB5 /* ConvertRequest.swift */,
+				A2D1E21C2A3DBFD300BE6EB5 /* ConvertResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2D1E21E2A3DC20B00BE6EB5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E2242A3DC26900BE6EB5 /* View */,
+				A2D1E2232A3DC26100BE6EB5 /* ViewModel */,
+				A2D1E2222A3DC25A00BE6EB5 /* Coordinator */,
+				A2D1E2202A3DC23000BE6EB5 /* Models */,
+				A2D1E21F2A3DC21600BE6EB5 /* ReusableViews */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A2D1E21F2A3DC21600BE6EB5 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		A2D1E2202A3DC23000BE6EB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E2322A3DC43900BE6EB5 /* HomeCoordinatorModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2D1E2222A3DC25A00BE6EB5 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E22D2A3DC2F200BE6EB5 /* HomeCoordinator.swift */,
+				A2D1E22F2A3DC2FA00BE6EB5 /* HomeCoordinatorProtocol.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A2D1E2232A3DC26100BE6EB5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E2292A3DC2D800BE6EB5 /* HomeViewModel.swift */,
+				A2D1E22B2A3DC2DF00BE6EB5 /* HomeViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A2D1E2242A3DC26900BE6EB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E2252A3DC2AF00BE6EB5 /* HomeViewController.swift */,
+				A2D1E2262A3DC2AF00BE6EB5 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2D1E23A2A3DEFEA00BE6EB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1E23B2A3DEFEA00BE6EB5 /* ConvertRequest.swift */,
+				A2D1E23C2A3DEFEA00BE6EB5 /* ConvertResponse.swift */,
+				A2D1E23D2A3DEFEA00BE6EB5 /* CurrenciesResponse.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +460,7 @@
 			files = (
 				A20851F82A3CF74500CFB2B6 /* LaunchScreen.storyboard in Resources */,
 				A20851F52A3CF74500CFB2B6 /* Assets.xcassets in Resources */,
+				A2D1E2282A3DC2AF00BE6EB5 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,10 +589,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D1E20B2A3DB43100BE6EB5 /* NetworkConstants.swift in Sources */,
+				A2D1E21D2A3DBFD300BE6EB5 /* ConvertResponse.swift in Sources */,
 				A2D1E2072A3D9EC700BE6EB5 /* NetworkManager.swift in Sources */,
+				A2D1E2332A3DC43900BE6EB5 /* HomeCoordinatorModels.swift in Sources */,
+				A2D1E2142A3DBC1A00BE6EB5 /* CurrencyServicesProtocol.swift in Sources */,
+				A2D1E2352A3DC52B00BE6EB5 /* UIViewController+Extensions.swift in Sources */,
+				A2D1E2132A3DBC1A00BE6EB5 /* CurrencyServices.swift in Sources */,
+				A2D1E2302A3DC2FA00BE6EB5 /* HomeCoordinatorProtocol.swift in Sources */,
+				A2D1E22E2A3DC2F200BE6EB5 /* HomeCoordinator.swift in Sources */,
 				A2D1E2092A3DB33000BE6EB5 /* NetworkError.swift in Sources */,
+				A2D1E22C2A3DC2DF00BE6EB5 /* HomeViewModelProtocol.swift in Sources */,
 				A20851F32A3CF74100CFB2B6 /* BankMisr.xcdatamodeld in Sources */,
+				A2D1E2372A3DC53F00BE6EB5 /* UIView+Extensions.swift in Sources */,
+				A2D1E23E2A3DEFEA00BE6EB5 /* ConvertRequest.swift in Sources */,
+				A2D1E22A2A3DC2D800BE6EB5 /* HomeViewModel.swift in Sources */,
+				A2D1E2272A3DC2AF00BE6EB5 /* HomeViewController.swift in Sources */,
+				A2D1E23F2A3DEFEA00BE6EB5 /* ConvertResponse.swift in Sources */,
+				A2D1E21B2A3DBFCA00BE6EB5 /* ConvertRequest.swift in Sources */,
+				A2D1E2402A3DEFEA00BE6EB5 /* CurrenciesResponse.swift in Sources */,
 				A20851E92A3CF74100CFB2B6 /* AppDelegate.swift in Sources */,
+				A2D1E2162A3DBC3A00BE6EB5 /* ServiceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,8 +782,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BankMisr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -656,6 +795,8 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				api_key = 5903da7bc1c0b0c3acaae1e77b8fb4f8;
+				base_url = "http://data.fixer.io/api/";
 			};
 			name = Debug;
 		};
@@ -671,8 +812,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BankMisr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -685,6 +825,8 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				api_key = 5903da7bc1c0b0c3acaae1e77b8fb4f8;
+				base_url = "http://data.fixer.io/api/";
 			};
 			name = Release;
 		};

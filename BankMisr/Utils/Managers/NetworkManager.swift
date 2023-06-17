@@ -13,7 +13,8 @@ class NetworkManager {
     private init() {}
     func processRequest<T>(url: String,
                            method: NetworkConstants.HttpMethods,
-                           httpData: Data?,
+                           httpData: Data? = nil,
+                           headers: [String: String]? = nil,
                            returnType: T.Type) -> Observable<T?> where T: Codable {
         let objResponse = PublishSubject<T?>()
         if let url = URL(string: url) {
@@ -23,9 +24,10 @@ class NetworkManager {
             )
             request.httpMethod = method.rawValue
             request.httpBody = httpData
+            setupHeadersFor(request: &request, headers: headers)
             let task = URLSession.shared.dataTask(
                 with: request,
-                completionHandler: { [weak self] data, _, error in
+                completionHandler: { [weak self] data, response, error in
                     if let error = error {
                         self?.handleErrorResponse(error: error,
                                                   objResponse: objResponse)
@@ -46,6 +48,13 @@ class NetworkManager {
                                objResponse: objResponse)
         }
         return objResponse
+    }
+    
+    func setupHeadersFor(request: inout URLRequest,
+                         headers: [String: String]?) {
+        for header in headers ?? [:] {
+            request.setValue(header.value, forHTTPHeaderField: header.key)
+        }
     }
 
     fileprivate func parseResponse<T>(data: Data?,
